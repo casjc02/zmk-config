@@ -118,7 +118,7 @@
 &kp Q            &kp W        &kp E         &kp R         &kp T        &kp Y      &kp U            &kp I         &kp O            &kp P
 &aml LEFT_GUI A  &aml LALT S  &asl LSHFT D  &aml LCTRL F  &kp G        &kp H      &amr LCTRL J     &asr LSHFT K  &amr LALT L      &amr LEFT_GUI SQT
 &kp Z            &kp X        &kp C         &kp V         &kp B        &kp N      &kp M            &kp COMMA     &ht RALT PERIOD  &kp SLASH
-                                            &lt 1 SPACE   &lt 4 TAB    &lt 3 RET  &lt 4 BACKSPACE
+                                            &lt 1 SPACE   &lt 2 TAB    &lt 3 RET  &lt 4 BACKSPACE
             >;
         };
 
@@ -131,7 +131,7 @@
             >;
         };
 
-        NUM {
+        SYS {
             bindings = <
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
@@ -142,19 +142,19 @@
 
         SYM {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans    &trans  &trans
-            >;
-        };
-
-        SYS {
-            bindings = <
 &trans          &trans        &trans        &trans        &trans            &trans  &trans  &trans  &trans  &trans
 &trans          &trans        &trans        &trans        &studio_unlock    &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR        &trans  &trans  &trans  &trans  &trans
                                             &trans        &trans            &trans  &trans
+            >;
+        };
+
+        NUM {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans    &trans  &trans
             >;
         };
     };
